@@ -1,2 +1,1 @@
-# Lab 2 - Starter
-https://pahsuleyk.github.io/Lab2_Starter/
+https://pahsuleyk.github.io/sp25-cse110-lab3/

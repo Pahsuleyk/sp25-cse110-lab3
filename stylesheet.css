@@ -1,3 +1,13 @@
+.limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  body {
+    font-family: "Limelight";
+  }
+
 h1 {                                /*Main title*/
     border-style: groove;
     border-color: rgb(19, 134, 235);
@@ -6,10 +16,10 @@ h1 {                                /*Main title*/
 
 
 h2 {                                 /*All headings*/
-    margin: 0;
+    margin: 1%;              /*1st unique relative unit*/
     background-image: repeating-linear-gradient(
         to top,
-        lightskyblue 0 2px,
+        lightskyblue 0 2px,     /*3rd unique absolut unit*/
         transparent 2px 1lh
     );
     color: #520676
@@ -19,4 +29,22 @@ h2 {                                 /*All headings*/
 span {                              /*Picture span Description*/
     color: blueviolet;
     background: hsl(0, 0%, 100%);
+}
+
+img {
+    height: 600px;
+    width: 500px;
+    border-style: inset;
+    border-color: color-mix(in hsl, hsl(200 50 80), rgb(191, 80, 255) 80%);
+    border-radius: 1in;     /*2nd unique absolute unit*/
+    
+}
+
+#recordings  {
+    color: #ffffff;
+}
+
+header nav > *:hover {
+    color: yellow;
+    background-color: color(srgb .35 .25 .9)    
 }

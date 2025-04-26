@@ -1,0 +1,22 @@
+h1 {                                /*Main title*/
+    border-style: groove;
+    border-color: rgb(19, 134, 235);
+    border-width: 0.25cm;       /*1 unique absolute unit*/
+}
+
+
+h2 {                                 /*All headings*/
+    margin: 0;
+    background-image: repeating-linear-gradient(
+        to top,
+        lightskyblue 0 2px,
+        transparent 2px 1lh
+    );
+    color: #520676
+}
+
+
+span {                              /*Picture span Description*/
+    color: blueviolet;
+    background: hsl(0, 0%, 100%);
+}

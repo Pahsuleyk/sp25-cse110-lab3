@@ -1,0 +1,60 @@
+.limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  body {
+    font-family: "Limelight";
+  }
+
+h1 {                                /*Main title*/
+    padding: 0.5em;             /*2nd unique relative unit*/
+    border-style: groove;
+    border-color: rgb(19, 134, 235);
+    border-width: 0.25cm;       /*1 unique absolute unit*/
+}
+
+
+h2 {                                 /*All headings*/
+    margin: 1%;              /*1st unique relative unit*/
+    background-image: repeating-linear-gradient(
+        to top,
+        lightskyblue 0 2px,     /*3rd unique absolut unit*/
+        transparent 2px 1lh
+    );
+    color: #520676
+}
+
+
+span {                              /*Picture span Description*/
+    color: blueviolet;
+    background: hsl(0, 0%, 100%);
+}
+
+img {
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    border-style: inset;
+    border-color: color-mix(in hsl, hsl(200 50 80), rgb(191, 80, 255) 80%);
+    border-radius: 1in;     /*2nd unique absolute unit*/
+    
+}
+
+#recordings  {
+    color: #ffffff;
+}
+
+.submitbtn {
+    color: red;
+    max-width: 10vw;
+    max-height: 10vh;
+    margin-top: 3%;
+    padding-bottom: 2cm;
+}
+
+header nav > *:hover {
+    color: yellow;
+    background-color: color(srgb .35 .25 .9)    
+}
